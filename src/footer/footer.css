@@ -1,0 +1,18 @@
+.footer-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    background-color:  #a5c33c; 
+    padding: 50px;
+    font-family: 'Play', sans-serif;
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-section {
+        display: block;
+    }
+    
+    }

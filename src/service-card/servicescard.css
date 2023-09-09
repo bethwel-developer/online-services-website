@@ -1,0 +1,61 @@
+.servicescard-section{
+    display: flex;
+    justify-content: center;
+    font-family: 'Play', sans-serif; 
+}
+
+.card{
+    border: 3px solid whitesmoke;
+    width: 18%;
+text-align: center;
+margin:12px 5px ;
+}
+
+.quote-button3{
+    padding: 13px 32px;
+    margin: 40px;
+    background-color:  #a5c33c; 
+    color: black;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.quote-button3:hover{
+    color: antiquewhite;
+background-color: black;
+}
+
+
+.card:hover{
+ margin-top: 3px; 
+ margin-bottom: 10px;  
+}
+
+.h2-card{
+color: #a5c33c;
+}
+
+.card-header{
+  background-color: #a5c33c;
+  padding: 5px;
+}
+
+
+.card-img{
+width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .servicescard-section {
+        display: block;
+
+    }
+    .card{
+        width: 100%;
+        margin:30px 0px 8px 50px;
+    }
+    }

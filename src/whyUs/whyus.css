@@ -1,0 +1,10 @@
+.whyus-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-whyus{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;  
+}

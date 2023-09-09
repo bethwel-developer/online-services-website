@@ -1,0 +1,57 @@
+.home-section{
+    background-image:url("../../public/background\ 1.png") ;
+    font-family: 'Play', sans-serif;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   color: #a5c33c;;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+.home-headings{
+    margin-top: 25vh;
+    flex: 10;
+    font-size: 1.3rem;
+
+}
+
+.h1-home{
+  font-size: 3.4rem;
+}
+
+
+.empty-flex{
+    flex: 1;
+}
+.red-title{
+    color: red;
+}
+
+.h5-home{
+    color: grey;
+}
+
+.quote-button{
+    padding: 13px 32px;
+    background-color:  #a5c33c; 
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-section {
+        height:140vh;
+
+    }
+      .card{
+          width: 70%;
+          margin:30px 0px 8px 50px;
+      }
+      }

@@ -1,0 +1,52 @@
+.whyuscard-section{
+    display: flex;
+    gap: 0.9px;
+    justify-content: center;
+    align-items: center;
+    padding-top: rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 200px;
+}
+
+.whyus-card{
+   
+    border: 1px solid grey;
+    width: 18%;
+    height: 30vh;
+text-align: center;
+padding: 30px 2px;
+color: gray;
+box-shadow: azure;
+
+
+}
+
+.why-icons{
+    font-size: 2rem;
+    color:  #a5c33c;
+}
+
+@media only screen and (max-width: 600px) {
+    .whyuscard-section {
+     display: block;
+    }
+    .whyus-card{
+width: 90%;
+margin-left: 15px;
+    }
+
+    
+    }
+
+
+    @media only screen and (max-width: 1056px) {
+        .whyuscard-section {
+         display: block;
+        }
+
+        .whyus-card{
+            width: 90%;
+            margin-left: px;
+                }
+            
+    }

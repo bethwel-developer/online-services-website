@@ -1,0 +1,59 @@
+.ordercard-section{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+        gap: 1rem;
+    margin-bottom: 100px;
+
+}
+
+.ordercard{
+    margin-top: 130px;
+     padding:100px 20px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    background-color: #a5c33c;
+}
+
+.order-content{
+    line-height: 30px;
+}
+
+.order-button{
+    padding: 13px 32px;
+    background-color:  black; 
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.ordercard-middle{
+    
+     padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -30px;
+    background-color: #a5c33c;
+
+   
+}
+
+.middle-header{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .ordercard-section {
+        display: block;
+
+    }
+    .card{
+        width: 70%;
+        margin-bottom: 8px;
+    }
+    }

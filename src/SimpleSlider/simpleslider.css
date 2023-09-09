@@ -1,0 +1,21 @@
+.reviewSlider{
+    font-family: 'Play', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    background-color: whitesmoke;
+    padding:25px 40px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    margin: 25px;
+}
+
+.setting{
+    margin:0rem 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .reviewSlider{
+        display: none;
+
+    }
+    }

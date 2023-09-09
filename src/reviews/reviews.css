@@ -1,0 +1,16 @@
+.reviews-section{
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'Play', sans-serif;
+line-height: 29px;
+margin-top: -120px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .reviews-section{
+        display: none;
+
+    }
+    }
