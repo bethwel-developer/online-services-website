@@ -15,7 +15,7 @@ const Topbar = () => {
     }
   return (
     <header>
-      <h3>logo</h3>
+      <h3 className="logo">B_IT</h3>
       
         <nav ref = {navRef}>
         <a  href='/#'>home</a>
