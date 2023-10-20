@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.css"
 
+
 const Home = () => {
   return (
     <div className='home-section'>
@@ -13,7 +14,6 @@ We have the online cover you and your<br/>
 business need.</h5>
 <button className='quote-button'>GET A QUOTE</button>
         </div>
-      
     </div>
   )
 }
