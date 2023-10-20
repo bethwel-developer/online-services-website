@@ -5,8 +5,6 @@ import { FaBusinessTime } from 'react-icons/fa'
 import { FaIcons } from 'react-icons/fa'
 import { FaShieldVirus} from 'react-icons/fa'
 
-
-
 const Reputation = () => {
   return (
     <div className='reputation-section'>
