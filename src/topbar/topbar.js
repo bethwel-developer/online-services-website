@@ -7,6 +7,7 @@ import {FaInstagram} from "react-icons/fa"
  import {AiFillTwitterCircle} from "react-icons/ai";
 import "./topbar.css"
 
+
 const Topbar = () => {
     const navRef = useRef();
 
@@ -38,5 +39,7 @@ const Topbar = () => {
     </header>
   )
 }
+
+
 
 export default Topbar
