@@ -16,8 +16,7 @@ import SimpleSlider from './SimpleSlider/SimpleSlider';
 
 function App() {
   return (
-    <div >
-      
+    <div > 
       <Topbar/>
       <Home/>
       <Discount/>
@@ -31,9 +30,7 @@ function App() {
       <SimpleSlider/>
       <Request/>
       <Requestform/>
-      <Footer/>
-      
-        
+      <Footer/> 
     </div>
   );
 }
