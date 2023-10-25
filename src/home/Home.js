@@ -2,6 +2,8 @@ import React from 'react'
 import "./home.css"
 
 
+
+
 const Home = () => {
   return (
     <div className='home-section'>
@@ -17,5 +19,6 @@ business need.</h5>
     </div>
   )
 }
+
 
 export default Home
