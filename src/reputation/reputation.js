@@ -7,6 +7,7 @@ import { FaShieldVirus} from 'react-icons/fa'
 
 
 
+
 const Reputation = () => {
   return (
     <div className='reputation-section'>
@@ -16,18 +17,23 @@ const Reputation = () => {
         <h4>USERS</h4>
       </div>
 
+    
       <div className='rep1'>
        <span className= "rep-icons"><FaShieldVirus/></span> 
         <h4>800</h4>
         <h4>SECURED SITES</h4>
       </div>
 
+
+    
        <div className='rep1'>
        <span className= "rep-icons"><FaBusinessTime/></span> 
         <h4>120</h4>
         <h4>BUSINESSES</h4>
       </div>
-      
+
+
+    
       <div className='rep1'>
        <span className= "rep-icons"><FaIcons/></span> 
         <h4>1450</h4>
